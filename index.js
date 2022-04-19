@@ -80,7 +80,7 @@ inquirer
 ## Usage
     ${response.usage}
 ## Screenshot
-    ${response.screenShot}`;
+<!-- ![portfolio demo](${response.screenShot}<!-- ![portfolio demo](`;
         fs.writeFile('README.md', content, (error) => console.error(error))
     })
 
