@@ -3,20 +3,20 @@
 ## Description:
     asd
 ## What motivated me:
-    asd
+    asdas
 ## Why did I build this project?
-    asd
+    das
 ## What problem does this solve?
-    asd
+    da
 ## What did you learn?
-    asd
+    sd
 ## Installation
-    asd
+    asdas
 ## Usage
-    asd
+    das
 ## Screenshot
-![screenshot](asd?raw=true)
+![screenshot](da?raw=true)
 ## Credit
-    asd asd
+    sdas
 ## Licenses Used
-    Choice1,Choice2,Choice4
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)    [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)    [![License: AGPL v3](https://img.shields.io/badge/License-AGPL_v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)    [![License: WTFPL](https://img.shields.io/badge/License-WTFPL-brightgreen.svg)](http://www.wtfpl.net/about/)

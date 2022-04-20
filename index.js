@@ -57,16 +57,30 @@ inquirer
     },
     {
         type: 'checkbox',
-        message: 'Which license did you use?',
+        message: 'Which license(s) did you use?',
         name: 'license',   
-        choices: ['Choice1', 'Choice2', 'Choice3', 'Choice4'],
+        choices: ['Apache', 'MIT', 'APGL', 'WTFPL'],
     },
 ])
+
+
+
 // .then((data) => {
 //     const filename = `${data.name.toLowerCase().split(' ').join('')}.json`;
 // TODO: Create a function to write README file
 .then((response) =>
     {
+        let badgeApache = `[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)`
+        console.log(typeof response.description)
+        
+        let badgeMIT = `[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)`
+        console.log(typeof response.description)
+        
+        let badgeAPGL = `[![License: AGPL v3](https://img.shields.io/badge/License-AGPL_v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)`
+        console.log(typeof response.description)
+        
+        let badgeWTFPL = `[![License: WTFPL](https://img.shields.io/badge/License-WTFPL-brightgreen.svg)](http://www.wtfpl.net/about/)`
+        console.log(typeof response.description)
         let content = `
 # Project Title: ${response.projectName}
 ## Description:
@@ -88,7 +102,19 @@ inquirer
 ## Credit
     ${response.credit}
 ## Licenses Used
-    ${response.license}`;
+${badgeApache}    ${badgeMIT}    ${badgeAPGL}    ${badgeWTFPL}`;
+    if (response.license === "Apache") {
+        let badgeApache = `[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)`
+    }
+    if (response.license === "MIT") {
+        let badgeMIT = `[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)`
+    }
+    if (response.license === "APGL") {
+        let badgeAPGL = `[![License: AGPL v3](https://img.shields.io/badge/License-AGPL_v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)`
+    }
+    if (response.license === "WTFPL") {
+        let badgeWTFPL = `[![License: WTFPL](https://img.shields.io/badge/License-WTFPL-brightgreen.svg)](http://www.wtfpl.net/about/)`
+    };
         fs.writeFile('README.md', content, (error) => console.error(error))
     })
 
@@ -97,3 +123,4 @@ inquirer
 
 // Function call to initialize app
 // init();
+//  npl mit agpl apache
