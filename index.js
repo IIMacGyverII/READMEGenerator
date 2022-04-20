@@ -19,43 +19,36 @@ inquirer
     type: 'input',
     message: 'What was your motivation for this project?',
     name: 'motivation',
-    
     },
     {
     type: 'input',
     message: 'Why did you build this project?',
     name: 'whyDidYou',
-    
     },
     {
         type: 'input',
         name: 'problemSolved',
-        message: 'What problem does this solve?',
-        
+        message: 'What problem does this solve?',   
     },
     {
         type: 'input',
         message: 'What did you learn?',
-        name: 'whatDidYouLearn',
-        
+        name: 'whatDidYouLearn',   
     },
     {
         type: 'input',
         name: 'installation',
-        message: 'How do you install this?',
-        
+        message: 'How do you install this?',   
     },
     {
         type: 'input',
         message: 'How do you use this project?',
-        name: 'usage',
-        
+        name: 'usage',   
     },
     {
         type: 'input',
         message: 'Add a link to a screenshot or gif',
-        name: 'screenShot',
-        
+        name: 'screenShot',   
     },
 ])
 // .then((data) => {
@@ -80,7 +73,7 @@ inquirer
 ## Usage
     ${response.usage}
 ## Screenshot
-<!-- ![portfolio demo](${response.screenShot}) -->`;
+![alt text](${response.screenShot}?raw=true)`;
         fs.writeFile('README.md', content, (error) => console.error(error))
     })
 

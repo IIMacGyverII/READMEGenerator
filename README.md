@@ -1,18 +1,18 @@
 
-# Project Title: sdf
+# Project Title: erasd
 ## Description:
-    adsf
+    asda
 ## What motivated me:
-    asd
+    sasd
 ## Why did I build this project?
-    ascdd
+    asd
 ## What problem does this solve?
     asd
 ## What did you learn?
     asd
 ## Installation
-    asd
+    ae
 ## Usage
     asd
 ## Screenshot
-<!-- ![portfolio demo](https://github.com/IIMacGyverII/Planner/raw/main/screen.png) -->
+![alt text](https://github.com/IIMacGyverII/Planner/raw/main/planner.gif?raw=true)
