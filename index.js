@@ -47,8 +47,19 @@ inquirer
     },
     {
         type: 'input',
-        message: 'Add a link to a screenshot or gif',
+        message: 'Add a link to a screenshot or gif.  This can be either a url or a relative path to an image file',
         name: 'screenShot',   
+    },
+    {
+        type: 'input',
+        message: 'To whom would you like to give credit?',
+        name: 'credit',   
+    },
+    {
+        type: 'checkbox',
+        message: 'Which license did you use?',
+        name: 'license',   
+        choices: ['Choice1', 'Choice2', 'Choice3', 'Choice4'],
     },
 ])
 // .then((data) => {
@@ -73,7 +84,11 @@ inquirer
 ## Usage
     ${response.usage}
 ## Screenshot
-![alt text](${response.screenShot}?raw=true)`;
+![screenshot](${response.screenShot}?raw=true)
+## Credit
+    ${response.credit}
+## Licenses Used
+    ${response.license}`;
         fs.writeFile('README.md', content, (error) => console.error(error))
     })
 

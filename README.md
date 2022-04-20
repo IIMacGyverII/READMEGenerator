@@ -1,9 +1,9 @@
 
-# Project Title: erasd
+# Project Title: asd
 ## Description:
-    asda
+    asd
 ## What motivated me:
-    sasd
+    asd
 ## Why did I build this project?
     asd
 ## What problem does this solve?
@@ -11,8 +11,12 @@
 ## What did you learn?
     asd
 ## Installation
-    ae
+    asd
 ## Usage
     asd
 ## Screenshot
-![alt text](https://github.com/IIMacGyverII/Planner/raw/main/planner.gif?raw=true)
+![screenshot](asd?raw=true)
+## Credit
+    asd asd
+## Licenses Used
+    Choice1,Choice2,Choice4
