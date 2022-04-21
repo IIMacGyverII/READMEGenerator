@@ -21,6 +21,6 @@
 ## Credit
     Northwestern for providing the course, Dane Edwards for teaching the class, AndrewAndrew Layendecker for
     all the help, Reniel and Reycel Christianson for the study group and of course central grading for their
-     expert programming knowledge and amazing talent! 
+    expert programming knowledge and amazing talent! 
 ## Licenses Used
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)    [![License: AGPL v3](https://img.shields.io/badge/License-AGPL_v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)    [![License: WTFPL](https://img.shields.io/badge/License-WTFPL-brightgreen.svg)](http://www.wtfpl.net/about/)
